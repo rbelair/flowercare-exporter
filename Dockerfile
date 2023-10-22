@@ -26,4 +26,4 @@ COPY --from=builder /build/flowercare-exporter /bin/flowercare-exporter
 USER nobody
 EXPOSE 9294
 
-ENTRYPOINT ["/bin/flowercare-exporter"]
+ENTRYPOINT ["/usr/bin/docker-flowercare-exporter"]
